@@ -22,6 +22,7 @@ namespace Ex8_Checked
             //byte sum2 = (int) b1 + (int) b2;
 
             //Thats why byte sum3 = b1 + b2 is cast to --> byte sum3 = (byte)(b1 + b2)
+            //https://stackoverflow.com/questions/941584/byte-byte-int-why
 
             try
             {
