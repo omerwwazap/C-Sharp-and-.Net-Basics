@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ex3_CommandLineArgument": {
+      "commandName": "Project",
+      "commandLineArgs": "Hello CTIS479 123"
+    }
+  }
+}
