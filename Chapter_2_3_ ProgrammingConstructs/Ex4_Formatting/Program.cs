@@ -8,11 +8,11 @@ namespace Ex4_Formatting
         {
             Console.WriteLine("The value 99999 in various formats:");
 
-            //currency Format 
+            //Currency Format 
             Console.WriteLine("c format: {0:c}", 99999); //c format: £99,999.00
             //Decimal
             Console.WriteLine("d9 format: {0:d9}", 99999); //d9 format: 000099999
-            //
+            //Fixed-point
             Console.WriteLine("f3 format: {0:f3}", 99999); //f3 format: 99999.000
             //Number
             Console.WriteLine("n format: {0:n}", 99999); //n format: 99,999.00
