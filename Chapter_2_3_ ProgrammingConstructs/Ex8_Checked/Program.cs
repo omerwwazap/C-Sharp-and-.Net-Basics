@@ -15,7 +15,16 @@ namespace Ex8_Checked
             // sum should hold the value 350. However, we find the value 94!
             Console.WriteLine("sum = {0}", sum);
 
-            try{
+
+            int sum2 = b2 + b1;
+            Console.WriteLine("sum = {0}", sum2);
+            //byte sum2 = b1 + b2; actualy means
+            //byte sum2 = (int) b1 + (int) b2;
+
+            //Thats why byte sum3 = b1 + b2 is cast to --> byte sum3 = (byte)(b1 + b2)
+
+            try
+            {
                 sum = checked((byte)Add(b1, b2));
                 Console.WriteLine("sum = {0}", sum);
             }
