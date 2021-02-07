@@ -6,6 +6,10 @@ namespace Ex3_CommandLineArgument
     {
         static void Main(string[] args)
         {
+            //For test purposes
+            //commandLineArgs: "Hello CTIS479 123" 
+            //are sent by the launchSettings.json file
+
             foreach (string val in args)
                 Console.WriteLine(val);
 
