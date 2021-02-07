@@ -14,7 +14,7 @@ namespace Ex6_String
             Console.WriteLine("firstName in uppercase: {0}", firstName.ToUpper());
             Console.WriteLine("firstName in lowercase: {0}", firstName.ToLower());
             Console.WriteLine("firstName contains the letter y?: {0}", firstName.Contains("y"));
-            Console.WriteLine("firstName after replace: {0}", firstName.Replace("dy", ""));
+            Console.WriteLine("firstName after replace: {0}", firstName.Replace("dy", "hey hey"));
             Console.WriteLine();
 
             Console.WriteLine("=> String concatenation:");
@@ -40,9 +40,13 @@ namespace Ex6_String
 
 
             Console.WriteLine("C:\\MyApp\\bin\\Debug");
+
+
             // The following string is printed verbatim,
             // thus all escape characters are displayed.
             Console.WriteLine(@"C:\MyApp\bin\Debug");
+
+
             // Whitespace is preserved with verbatim strings.
             string myLongString = @"This is a very
 						very
@@ -62,6 +66,8 @@ namespace Ex6_String
             Console.WriteLine("s1 = {0}", s1);
             Console.WriteLine("s2 = {0}", s2);
             Console.WriteLine();
+
+
             // Test these strings for equality.
             Console.WriteLine("s1 == s2: {0}", s1 == s2);
             Console.WriteLine("s1 == Hello!: {0}", s1 == "Hello!");
